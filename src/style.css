@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Indie+Flower&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aldrich', sans-serif;
+}
+
 .main {
     background-color: rgba(220, 20, 60, 0.76);
 }
@@ -27,4 +35,35 @@
     padding: 30px;
     width: 200px;
     height: 200px;
+}
+
+.attackButon{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #F1C40F;
+    font-size: large;
+    font-weight: bold;
+    color: #F1C40F;
+    border-radius: 20px;
+}
+
+.attackButon:hover {
+    background-color: #F1C40F; /* Green */
+    color: white;
+}
+
+.description_charmander,
+.description_totodile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
