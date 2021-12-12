@@ -1,8 +1,5 @@
 let dataCharmander =document.getElementById("data_charmander");
 let dataTotodile = document.getElementById("data_totodile");
-let live = "VIDA: "
-let liveCharmander = "100";
-let liveTotodile = "100";
 let attackButtonCharmander = document.getElementById("attack-button-charmander");
 let attackButtonTotodile = document.getElementById("attack-button-totodile");
 
@@ -40,7 +37,10 @@ let totodile = new Pokemon (100, "0,6 m", "TORRENTE",25);
     divTotodile.innerHTML = totodileTemplete
     dataTotodile.appendChild(divTotodile);
 
-attackButtonCharmander.onclick = function (){
-    
+
+attackButtonCharmander.onclick = function (pokemonVida = 100){
+    vidaAcumulada
+    for (let i=0; i < pokemonVida; i--)
+
 }
 
