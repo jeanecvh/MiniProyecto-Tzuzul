@@ -47,11 +47,18 @@
     font-weight: bold;
     color: #F1C40F;
     border-radius: 20px;
+    cursor: pointer;
 }
 
-.attackButon:hover {
+.attackButon:hover{
     background-color: #F1C40F; /* Green */
     color: white;
+}
+
+.attackButon:disabled{
+    background-color: rgba(240, 217, 217, 0.911);
+    color: #F1C40F; 
+    cursor: auto;
 }
 
 .description_charmander,
