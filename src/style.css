@@ -7,10 +7,21 @@
 }
 
 .main {
-    background-color: rgba(220, 20, 60, 0.76);
+    background-image: url('/img/pokemon-battle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.tittle{
+.imgBanner{
+    height: 10%;
+    width: 30%;
+    
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
     padding: 20px;
+    background-color: darkcyan;
 }
 .tittle h1 {
     display: flex;
@@ -19,6 +30,8 @@
 .participants{
     display: flex;
     justify-content: space-around;
+    padding-top: 300px;
+    padding-bottom: 100px;
 }
 
 .charmander,
@@ -26,8 +39,9 @@
     background-color: white;
     margin: 20px;
     border-radius: 20px;
-    border-color: crimson;
-    border-width: 2px;
+    border-style: solid;
+    border-color: #ecd026;
+    border-width: 5px;
 }
 
 .charmanderimg,
@@ -66,6 +80,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
 .description{
@@ -73,4 +88,10 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 139, 139, 0.568);
 }
